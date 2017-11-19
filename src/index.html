@@ -15,7 +15,10 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://maps.googleapis.com/ https://maps.gstatic.com/ https://mts0.googleapis.com/ 'unsafe-inline' 'unsafe-eval'">
+
   <!-- cordova.js required for cordova apps (remove if not needed) -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYwtOWtNYh2d3J5UMqbfpmOg5dqN8M1ik&sensor=true" async defer></script>
   <script src="cordova.js"></script>
 
   <!-- un-comment this code to enable service worker
@@ -34,7 +37,7 @@
 
   <!-- Ionic's root component and where the app will load -->
   <ion-app></ion-app>
-
+  
   <!-- The polyfills js is generated during the build process -->
   <script src="build/polyfills.js"></script>
 
