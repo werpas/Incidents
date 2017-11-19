@@ -65,5 +65,4 @@ export class HomePage {
       });
       return res;
   }
-
 }
